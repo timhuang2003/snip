@@ -4,8 +4,6 @@
  * 修复日常的小数据请求更重要的逻辑问题。
  * 修复下载队列在长期频繁的峰值状态会导致上传队列被阻塞问题。
  * 适配了ProxyIP使用， 路径格式，/proxyip=ip:port
- * 🫡致敬原版作者：Alexandre_Kojeve
- * 天诚技术交流群@zyssadmin出品
  */
 
 import { connect } from 'cloudflare:sockets';
