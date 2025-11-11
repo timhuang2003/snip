@@ -6,3 +6,4 @@ StallTCP1.3 Fixed Version ⚡️ StallTCP - v1.3 🥇 Mainly introduced bufferin
 ❇️ 🫡 Paying tribute to the original author: Alexandre_Kojeve.
 ❇️ Produced by Tiancheng Technical Exchange Group @zyssadmin.
 ❇️ All parameters are adjustable; this code is primarily for experimental purposes, and no responsibility is taken for any consequences.
+vless://UUID@项目域名:443?encryption=none&security=tls&type=ws&host=项目域名&path=%2F#CF-Worker节点
