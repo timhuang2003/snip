@@ -1,12 +1,8 @@
-StallTCP1.3 修复版 
- ⚡️ stallTCP - v1.3 
-  🥇 主要加入了缓冲和策略性选择的传输模式.
-  🥈 缓冲必然导向策略, 策略自适应用户窗口, 用于优化用户使用体验.
-  🥉 目前的策略有 direct & adaptive & buffered.
+StallTCP1.3 Fixed Version ⚡️ StallTCP - v1.3 🥇 Mainly introduced buffering and strategically selected transmission modes. 🥈 Buffering inevitably leads to strategies, and strategies adapt to the user's window to optimize the user experience. 🥉 The current strategies include direct, adaptive, and buffered.
 
- ❇️ 修复日常的小数据请求更重要的逻辑问题。
- ❇️ 修复下载队列在长期频繁的峰值状态会导致上传队列被阻塞问题。
- ❇️ 适配了 ProxyIP 使用， 路径格式，/proxyip=ip:port
- ❇️ 🫡 致敬原版作者：Alexandre_Kojeve
- ❇️ 天诚技术交流群 @zyssadmin 出品
- ❇️ 各个参数执行可调, 本代码主要用于实验, 一切后果概不负责.
+❇️ Fixed the logic issue where small data requests are more critical in daily use.
+❇️ Fixed the issue where long-term frequent peak states in the download queue could block the upload queue.
+❇️ Adapted for ProxyIP usage, with the path format: /proxyip=ip:port.
+❇️ 🫡 Paying tribute to the original author: Alexandre_Kojeve.
+❇️ Produced by Tiancheng Technical Exchange Group @zyssadmin.
+❇️ All parameters are adjustable; this code is primarily for experimental purposes, and no responsibility is taken for any consequences.
