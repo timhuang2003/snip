@@ -20,3 +20,9 @@ StallTCP1.3 Fixed Version ⚡️ StallTCP - v1.3 🥇 Mainly introduced bufferin
 vless://UUID@项目域名:443?encryption=none&security=tls&type=ws&host=项目域名&path=%2F#CF-Worker节点
 
 vless://UUID@优选域名:443?encryption=none&security=tls&sni=项目域名&alpn=http%2F1.1&fp=firefox&allowInsecure=1&type=ws&host=项目域名&path=%2F#Sinppets
+
+
+
+🥈实例
+
+<img width="787" height="416" alt="image" src="https://github.com/user-attachments/assets/713f2a42-7060-48ef-b312-0bccd602b45b" />
