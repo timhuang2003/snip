@@ -1,4 +1,12 @@
-StallTCP1.3 Fixed Version ⚡️ StallTCP - v1.3 🥇 Mainly introduced buffering and strategically selected transmission modes. 🥈 Buffering inevitably leads to strategies, and strategies adapt to the user's window to optimize the user experience. 🥉 The current strategies include direct, adaptive, and buffered.
+StallTCP1.3 Fixed Version 
+
+⚡️ StallTCP - v1.3 
+
+🥇 Mainly introduced buffering and strategically selected transmission modes. 
+
+🥈 Buffering inevitably leads to strategies, and strategies adapt to the user's window to optimize the user experience. 
+
+🥉 The current strategies include direct, adaptive, and buffered.
 
 ❇️ Fixed the logic issue where small data requests are more critical in daily use.
 
