@@ -3,6 +3,7 @@ StallTCP1.3 Fixed Version ⚡️ StallTCP - v1.3 🥇 Mainly introduced bufferin
 ❇️ Fixed the logic issue where small data requests are more critical in daily use.
 
 ❇️ Fixed the issue where long-term frequent peak states in the download queue could block the upload queue.
+
 ❇️ Adapted for ProxyIP usage, with the path format: /proxyip=ip:port.
 
 ❇️ 🫡 Paying tribute to the original author: Alexandre_Kojeve.
