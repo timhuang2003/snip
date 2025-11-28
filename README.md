@@ -35,3 +35,19 @@ vless://UUID@优选域名:443?encryption=none&security=tls&sni=项目域名&alpn
 🥈实例
 
 <img width="787" height="416" alt="image" src="https://github.com/user-attachments/assets/713f2a42-7060-48ef-b312-0bccd602b45b" />
+
+PS: Current major code issues:
+
+⚠️ The current strategy uses direct as the default transmission mode, while using buffered for large file downloads - this is incorrect. In theory, large file downloads require the zero-copy mechanism of direct mode more, but the current code uses buffered, which causes browser downloads of large files to disconnect at 1.8G, 2.8G, 3.5G (under my bandwidth conditions) and fail to properly reconnect to new instances.
+
+⚠️ The download queue being in a long-term frequent peak state can cause the upload queue to be blocked.
+
+✳️ Use AI to modify the logic:
+
+✅ Reverse the strategy logic - daily small data requests are more important for the buffered mechanism to reduce send() calls.
+
+✅ Modify the upload queue priority or reserve certain memory for the upload queue to avoid blocking.
+
+Since this is not the final code, the current code errors have been resolved in iterative versions, but I will not modify this stage version - test it yourself.
+
+All parameters are adjustable during execution. This code is mainly for experimental purposes, and no responsibility is taken for any consequences.
