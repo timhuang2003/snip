@@ -36,6 +36,8 @@ vless://UUID@优选域名:443?encryption=none&security=tls&sni=项目域名&alpn
 
 <img width="787" height="416" alt="image" src="https://github.com/user-attachments/assets/713f2a42-7060-48ef-b312-0bccd602b45b" />
 
+
+
 PS: Current major code issues:
 
 ⚠️ The current strategy uses direct as the default transmission mode, while using buffered for large file downloads - this is incorrect. In theory, large file downloads require the zero-copy mechanism of direct mode more, but the current code uses buffered, which causes browser downloads of large files to disconnect at 1.8G, 2.8G, 3.5G (under my bandwidth conditions) and fail to properly reconnect to new instances.
