@@ -14,10 +14,6 @@ StallTCP1.3 Fixed Version
 
 ❇️ Adapted for ProxyIP usage, with the path format: /proxyip=ip:port.
 
-❇️ 🫡 Paying tribute to the original author: Alexandre_Kojeve.
-
-❇️ Produced by Tiancheng Technical Exchange Group @zyssadmin.
-
 ❇️ All parameters are adjustable; this code is primarily for experimental purposes, and no responsibility is taken for any consequences.
 
 
